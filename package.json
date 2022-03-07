@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "A test project",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "backend": "nodemon --exec babel-node index.js"
+  },
+  "author": "adex",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/runtime": "^7.16.7",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.7",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.16.7",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.7",
+    "nodemon": "^2.0.15"
+  }
+}
